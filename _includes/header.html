@@ -1,0 +1,25 @@
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Navbar">
+    <div class="container align-items-center justify-content-center justify-content-md-between">
+      
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 navbar-brand text-decoration-none">
+        <!-- <svg class="bi me-1" width="40" height="32" role="img" aria-label="Logo" fill="currentColor"><use xlink:href="#bootstrap"/></svg> -->
+        <i class="me-2 fs-3 bi-code-square"></i>
+        <span class="fs-4">{{ site.title }}</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 text-white">
+        &nbsp;
+      </div>
+
+      <div class="col-md-3 text-center fs-5">
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          {% include navigation.html %}
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
